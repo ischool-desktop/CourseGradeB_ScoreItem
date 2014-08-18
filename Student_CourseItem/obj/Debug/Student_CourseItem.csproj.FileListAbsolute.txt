@@ -1,0 +1,9 @@
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\bin\Debug\Student_CourseItem.dll
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\bin\Debug\Student_CourseItem.pdb
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\Student_CourseItem.csprojResolveAssemblyReference.cache
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\BasicInformation.Student_CourseItem.CourseScoreItem.resources
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\BasicInformation.Student_CourseItem.CreateForm.resources
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\Student_CourseItem.csproj.GenerateResource.Cache
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\Student_CourseItem.dll
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\Student_CourseItem.pdb
+D:\Github\CourseGradeB_ScoreItem\Student_CourseItem\obj\Debug\BasicInformation.Student_CourseItem.StudentExtendControls.EditScore.resources

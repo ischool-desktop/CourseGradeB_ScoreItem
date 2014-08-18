@@ -66,7 +66,6 @@ namespace BasicInformation.Student_CourseItem
                     _worker.RunWorkerAsync(_RunningID);
                     return;
                 }
-
                 ResetListView();
                 PrefillItems(e.Result as List<JHCourseRecord>);
             };
@@ -246,6 +245,16 @@ namespace BasicInformation.Student_CourseItem
                     _worker.RunWorkerAsync();
                 }
             }
+        }
+
+        private void btn_editscore_Click(object sender, EventArgs e)
+        {
+            int SchoolYear;
+            int SchoolSemester;
+            string StudentId = PrimaryKey;
+
+            if (int.TryParse(cboSchoolYear.Text, out SchoolYear) && int.TryParse(cboSemester.Text, out SchoolSemester))
+                 new StudentExtendControls.EditScore(SchoolYear, SchoolSemester, StudentId).ShowDialog();
         }
     }
 }

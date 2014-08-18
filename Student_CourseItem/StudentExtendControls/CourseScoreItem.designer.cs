@@ -44,6 +44,7 @@
             this.lblCount = new DevComponents.DotNetBar.LabelX();
             this.btnAdd = new DevComponents.DotNetBar.ButtonX();
             this.btnDelete = new DevComponents.DotNetBar.ButtonX();
+            this.btn_editscore = new DevComponents.DotNetBar.ButtonX();
             this.SuspendLayout();
             // 
             // listView
@@ -196,9 +197,21 @@
             this.btnDelete.Text = "刪除修課";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // btn_editscore
+            // 
+            this.btn_editscore.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_editscore.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_editscore.Location = new System.Drawing.Point(177, 196);
+            this.btn_editscore.Name = "btn_editscore";
+            this.btn_editscore.Size = new System.Drawing.Size(75, 23);
+            this.btn_editscore.TabIndex = 5;
+            this.btn_editscore.Text = "編輯成績";
+            this.btn_editscore.Click += new System.EventHandler(this.btn_editscore_Click);
+            // 
             // CourseScoreItem
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.btn_editscore);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblCount);
@@ -232,5 +245,6 @@
         private System.Windows.Forms.ColumnHeader chSemester;
         private System.Windows.Forms.ColumnHeader chCourseName;
         private System.Windows.Forms.ColumnHeader chSubject;
+        private DevComponents.DotNetBar.ButtonX btn_editscore;
     }
 }
