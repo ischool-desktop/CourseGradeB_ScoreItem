@@ -39,6 +39,7 @@ namespace BasicInformation.Student_CourseItem.StudentExtendControls
             List<SCAttendRecord> scattend = K12.Data.SCAttend.SelectByStudentID(studentId);
             //把所有的課程ID收集到一個LIST裡面，得到所有課程ID
             List<string> courseIds = new List<string>();
+
             foreach (SCAttendRecord sc in scattend)
             {
                 if (!_courseToScAttend.ContainsKey(sc.RefCourseID))

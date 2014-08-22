@@ -31,6 +31,7 @@ namespace BasicInformation.Student_CourseItem
 
             btnAdd.Visible = UserPermission.Editable;
             btnDelete.Visible = UserPermission.Editable;
+			btn_editscore.Visible = UserPermission.Editable;
 
             InitializeBackgroundWorker();
             _items = new Dictionary<SemesterInfo, List<ListViewItem>>();
